@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+    File:           flights.xml
+    Author:         Nicole Braden
+    Date:           Feb 7, 2020
+    Description:    Project 1 - Airport
+-->
+<flights xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="flightSchema.xsd">
+  <airport>Flights at London International Airport</airport>
+  <date>2020-02-07</date>
+  <time>11:19:00</time>
+  <arrivals>
+    <arrival>
+      <airline-a company="Swoop">
+        <flight>8649</flight>
+        <arriving-from>Toronto</arriving-from>
+        <scheduled-time>14:31:00</scheduled-time>
+        <actual-time>12:43:00</actual-time>
+        <status>Arrived</status>
+      </airline-a>
+    </arrival>
+    <arrival>
+      <airline-a company="WestJet">
+        <flight>3511</flight>
+        <arriving-from>Toronto</arriving-from>
+        <scheduled-time>17:58:00</scheduled-time>
+        <actual-time>17:40:00</actual-time>
+        <status>Early</status>
+      </airline-a>
+    </arrival>
+    <arrival>
+      <airline-a company="Swoop">
+        <flight>833</flight>
+        <arriving-from>Las Vegas</arriving-from>
+        <scheduled-time>19:37:00</scheduled-time>
+        <actual-time>19:43:00</actual-time>
+        <status>Late</status>
+      </airline-a>
+    </arrival>
+    <arrival>
+      <airline-a company="Sunwing">
+        <flight>740</flight>
+        <arriving-from>Ottawa</arriving-from>
+        <scheduled-time>09:25:00</scheduled-time>
+        <actual-time>09:25:00</actual-time>
+        <status>On Time</status>
+      </airline-a>
+    </arrival>
+    <arrival>
+      <airline-a company="Swoop">
+        <flight>342</flight>
+        <arriving-from>Abbotsford</arriving-from>
+        <scheduled-time>21:52:00</scheduled-time>
+        <actual-time>22:27:00</actual-time>
+        <status>Late</status>
+      </airline-a>
+    </arrival>
+    <arrival>
+      <airline-a company="WestJet">
+        <flight>736</flight>
+        <arriving-from>Calgary</arriving-from>
+        <scheduled-time>00:19:00</scheduled-time>
+        <actual-time>00:19:00</actual-time>
+        <status>On Time</status>
+      </airline-a>
+    </arrival>
+    <arrival>
+      <airline-a company="Swoop">
+        <flight>208</flight>
+        <arriving-from>Edmonton</arriving-from>
+        <scheduled-time>11:38:00</scheduled-time>
+        <actual-time>11:38:00</actual-time>
+        <status>On Time</status>
+      </airline-a>
+    </arrival>
+    <arrival>
+      <airline-a company="Air Canada">
+        <flight>8665</flight>
+        <arriving-from>Montreal</arriving-from>
+        <scheduled-time>15:08:00</scheduled-time>
+        <actual-time>15:08:00</actual-time>
+        <status>Arrived</status>
+      </airline-a>
+    </arrival>
+    <arrival>
+      <airline-a company="Air Canada">
+        <flight>8643</flight>
+        <arriving-from>Toronto</arriving-from>
+        <scheduled-time>08:46:00</scheduled-time>
+        <actual-time>08:46:00</actual-time>
+        <status>On Time</status>
+      </airline-a>
+    </arrival>
+    <arrival>
+      <airline-a company="WestJet">
+        <flight>3511</flight>
+        <arriving-from>Toronto</arriving-from>
+        <scheduled-time>17:58:00</scheduled-time>
+        <actual-time>17:58:00</actual-time>
+        <status>On Time</status>
+      </airline-a>
+    </arrival>
+  </arrivals>
+  <departures>
+    <depature>
+      <departure-airline name="WestJet">
+        <departure-flight>3508</departure-flight>
+        <leaving-from>Toronto</leaving-from>
+        <scheduled-departure-time>18:30:00</scheduled-departure-time>
+        <actual-depature-time>18:30:00</actual-depature-time>
+        <departure-status>On Time</departure-status>
+      </departure-airline>
+    </depature>
+    <depature>
+      <departure-airline name="Air Canada">
+        <departure-flight>8646</departure-flight>
+        <leaving-from>Toronto</leaving-from>
+        <scheduled-departure-time>12:05:00</scheduled-departure-time>
+        <actual-depature-time>12:59:00</actual-depature-time>
+        <departure-status>Cancelled</departure-status>
+      </departure-airline>
+    </depature>
+    <depature>
+      <departure-airline name="Swoop">
+        <departure-flight>539</departure-flight>
+        <leaving-from>Edmonton</leaving-from>
+        <scheduled-departure-time>22:40:00</scheduled-departure-time>
+        <actual-depature-time>23:20:00</actual-depature-time>
+        <departure-status>Delayed</departure-status>
+      </departure-airline>
+    </depature>
+    <depature>
+      <departure-airline name="Sunwing">
+        <departure-flight>740</departure-flight>
+        <leaving-from>Montego Bay</leaving-from>
+        <scheduled-departure-time>10:15:00</scheduled-departure-time>
+        <actual-depature-time>10:15:00</actual-depature-time>
+        <departure-status>On Time</departure-status>
+      </departure-airline>
+    </depature>
+    <depature>
+      <departure-airline name="Swoop">
+        <departure-flight>221</departure-flight>
+        <leaving-from>Abbotsford</leaving-from>
+        <scheduled-departure-time>12:25:00</scheduled-departure-time>
+        <actual-depature-time>12:25:00</actual-depature-time>
+        <departure-status>On Time</departure-status>
+      </departure-airline>
+    </depature>
+  </departures>
+</flights>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+    File:           second.xml
+    Author:         Nicole Braden
+    Date:           Feb 7, 2020
+    Description:    Project 1 - Airport
+-->
+<flights xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="flightSchema.xsd">
+  <airport>Flights at London International Airport</airport>
+  <date>2020-02-07</date>
+  <time>11:19:00</time>
+  <arrivals>
+    <arrival>
+      <airline-a company="Air Canada">
+        <flight>8645</flight>
+        <arriving-from>Toronto</arriving-from>
+        <scheduled-time>11:41:00</scheduled-time>
+        <actual-time>11:52:00</actual-time>
+        <status>Arrived</status>
+      </airline-a>
+    </arrival>
+    <arrival>
+      <airline-a company="Swoop">
+        <flight>208</flight>
+        <arriving-from>Edmonton</arriving-from>
+        <scheduled-time>12:38:00</scheduled-time>
+        <actual-time>12:22:00</actual-time>
+        <status>Arrived</status>
+      </airline-a>
+    </arrival>
+    <arrival>
+      <airline-a company="Air Canada">
+        <flight>8659</flight>
+        <arriving-from>Ottawa</arriving-from>
+        <scheduled-time>13:50:00</scheduled-time>
+        <actual-time>14:45:00</actual-time>
+        <status>Diverted</status>
+      </airline-a>
+    </arrival>
+    <arrival>
+      <airline-a company="Swoop">
+        <flight>350</flight>
+        <arriving-from>Abbotsford</arriving-from>
+        <scheduled-time>15:12:00</scheduled-time>
+        <actual-time>15:49:00</actual-time>
+        <status>Late</status>
+      </airline-a>
+    </arrival>
+    <arrival>
+      <airline-a company="Air Transat">
+        <flight>023</flight>
+        <arriving-from>Hamilton</arriving-from>
+        <scheduled-time>17:10:00</scheduled-time>
+        <actual-time>17:10:00</actual-time>
+        <status>On Time</status>
+      </airline-a>
+    </arrival>
+    <arrival>
+      <airline-a company="Sunwing">
+        <flight>107</flight>
+        <arriving-from>Varadaro</arriving-from>
+        <scheduled-time>18:30:00</scheduled-time>
+        <actual-time>18:30:00</actual-time>
+        <status>On Time</status>
+      </airline-a>
+    </arrival>
+  </arrivals>
+  <departures>
+    <depature>
+      <departure-airline name="Air Canada">
+        <departure-flight>8646</departure-flight>
+        <leaving-from>Toronto</leaving-from>
+        <scheduled-departure-time>12:05:00</scheduled-departure-time>
+        <actual-depature-time>12:27:00</actual-depature-time>
+        <departure-status>Departed</departure-status>
+      </departure-airline>
+    </depature>
+    <depature>
+      <departure-airline name="Swoop">
+        <departure-flight>239</departure-flight>
+        <leaving-from>Edmonton</leaving-from>
+        <scheduled-departure-time>13:25:00</scheduled-departure-time>
+        <actual-depature-time>13:22:00</actual-depature-time>
+        <departure-status>Departed</departure-status>
+      </departure-airline>
+    </depature>
+    <depature>
+      <departure-airline name="Air Canada">
+        <departure-flight>8660</departure-flight>
+        <leaving-from>Ottawa</leaving-from>
+        <scheduled-departure-time>14:15:00</scheduled-departure-time>
+        <actual-depature-time>15:05:00</actual-depature-time>
+        <departure-status>Delayed</departure-status>
+      </departure-airline>
+    </depature>
+    <depature>
+      <departure-airline name="Sunwing">
+        <departure-flight>462</departure-flight>
+        <leaving-from>Punta Cana</leaving-from>
+        <scheduled-departure-time>09:30:00</scheduled-departure-time>
+        <actual-depature-time>09:30:00</actual-depature-time>
+        <departure-status>On Time</departure-status>
+      </departure-airline>
+    </depature>
+    <depature>
+      <departure-airline name="Swoop">
+        <departure-flight>836</departure-flight>
+        <leaving-from>Orlando</leaving-from>
+        <scheduled-departure-time>16:00:00</scheduled-departure-time>
+        <actual-depature-time>16:00:00</actual-depature-time>
+        <departure-status>On Time</departure-status>
+      </departure-airline>
+    </depature>
+    <depature>
+      <departure-airline name="WestJet">
+        <departure-flight>3508</departure-flight>
+        <leaving-from>Calgary</leaving-from>
+        <scheduled-departure-time>06:00:00</scheduled-departure-time>
+        <actual-depature-time>06:00:00</actual-depature-time>
+        <departure-status>On Time</departure-status>
+      </departure-airline>
+    </depature>
+  </departures>
+</flights>
